@@ -1,0 +1,6 @@
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\JobLibrary\bin\Debug\JobLibrary.dll
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\JobLibrary\bin\Debug\JobLibrary.pdb
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\JobLibrary\obj\Debug\JobLibrary.csprojAssemblyReference.cache
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\JobLibrary\obj\Debug\JobLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\JobLibrary\obj\Debug\JobLibrary.dll
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\JobLibrary\obj\Debug\JobLibrary.pdb

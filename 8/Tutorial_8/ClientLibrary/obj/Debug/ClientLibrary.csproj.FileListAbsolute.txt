@@ -1,0 +1,5 @@
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\ClientLibrary\bin\Debug\ClientLibrary.dll
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\ClientLibrary\bin\Debug\ClientLibrary.pdb
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\ClientLibrary\obj\Debug\ClientLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\ClientLibrary\obj\Debug\ClientLibrary.dll
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\ClientLibrary\obj\Debug\ClientLibrary.pdb

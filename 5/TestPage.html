@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>A simple page</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="DoesNotChange">
+		<p> Press this button to load the dynamic code </p> <button onclick="DoTheThing()">Woah like I'm a button</button>
+	</div>
+	<div id="Content">
+	</div>
+	<script>
+		function DoTheThing()
+		{
+			$.ajax({
+				url: 'getTheStuff.html',
+				type: 'get',
+				processData: false,
+				success: function (d,t,j){
+					$('#Content').html(d);
+				},
+				error: function(j,t,e){
+					console.log("Error occur:" + e);
+				}
+			});
+		} 
+	</script>
+</body>
+</html>
+
+

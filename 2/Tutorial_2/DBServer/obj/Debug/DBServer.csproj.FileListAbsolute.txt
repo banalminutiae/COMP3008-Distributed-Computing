@@ -1,0 +1,14 @@
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\bin\Debug\DBServer.exe.config
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\bin\Debug\DBServer.exe
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\bin\Debug\DBServer.pdb
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\bin\Debug\BusinessTierInterface.dll
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\bin\Debug\DBInterface.dll
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\bin\Debug\DBLib.dll
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\bin\Debug\BusinessTierInterface.pdb
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\bin\Debug\DBInterface.pdb
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\bin\Debug\DBLib.pdb
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\obj\Debug\DBServer.csprojAssemblyReference.cache
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\obj\Debug\DBServer.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\obj\Debug\DBServer.csproj.CopyComplete
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\obj\Debug\DBServer.exe
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\DBServer\obj\Debug\DBServer.pdb

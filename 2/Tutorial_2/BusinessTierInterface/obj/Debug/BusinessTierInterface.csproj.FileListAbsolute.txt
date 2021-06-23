@@ -1,0 +1,6 @@
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessTierInterface\bin\Debug\BusinessTierInterface.dll
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessTierInterface\bin\Debug\BusinessTierInterface.pdb
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessTierInterface\obj\Debug\BusinessTierInterface.csprojAssemblyReference.cache
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessTierInterface\obj\Debug\BusinessTierInterface.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessTierInterface\obj\Debug\BusinessTierInterface.dll
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessTierInterface\obj\Debug\BusinessTierInterface.pdb

@@ -1,0 +1,6 @@
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\BlocksLibrary\bin\Debug\BlocksLibrary.dll
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\BlocksLibrary\bin\Debug\BlocksLibrary.pdb
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\BlocksLibrary\obj\Debug\BlocksLibrary.csprojAssemblyReference.cache
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\BlocksLibrary\obj\Debug\BlocksLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\BlocksLibrary\obj\Debug\BlocksLibrary.dll
+C:\Users\Andre\Documents\DC\Assignment2\8\Tutorial_8\BlocksLibrary\obj\Debug\BlocksLibrary.pdb

@@ -1,0 +1,12 @@
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\bin\Debug\BusinessServer.exe.config
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\bin\Debug\BusinessServer.exe
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\bin\Debug\BusinessServer.pdb
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\bin\Debug\BusinessTierInterface.dll
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\bin\Debug\DBInterface.dll
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\bin\Debug\BusinessTierInterface.pdb
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\bin\Debug\DBInterface.pdb
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\obj\Debug\BusinessServer.csprojAssemblyReference.cache
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\obj\Debug\BusinessServer.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\obj\Debug\BusinessServer.csproj.CopyComplete
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\obj\Debug\BusinessServer.exe
+C:\Users\Andre\Documents\DC\Assignment2\2\Tutorial_2\BusinessServer\obj\Debug\BusinessServer.pdb

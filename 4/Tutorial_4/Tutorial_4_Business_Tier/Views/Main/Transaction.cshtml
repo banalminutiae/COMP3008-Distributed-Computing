@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Transaction";
+}
+
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--JQuery-->
+    </head>
+
+<form>
+    <label>Create Transaction</label><br />
+    <input type="text" id="amount" name="amount" placeholder="Amount" /><br /><br />
+    <input type="text" id="senderID" name="senderID" placeholder="Sender ID" /><br /><br />
+    <input type="text" id="receiverID" name="receiverID" placeholder="Receiver ID" /><br /><br />
+</form>
+<button id="submitButton" onclick="doTransaction()">Complete Transaction</button>
+
+<h2>Transaction</h2>
+
+<script>
+    function doTransaction() {
+        $.ajax({
+            url: 'https://localhost:44384/api/Bank/CreateTransaction/' + $("#receiverID").val() + "/" + $("#senderID").val() + "/" + $("#amount").val(),
+            type: 'post',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+                if (data == 0) {
+                    alert("Transaction process successful");
+                } else {
+                    alert("Transaction process failed")
+                }
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                alert("Transaction error");
+            }
+        });
+    }
+
+</script>

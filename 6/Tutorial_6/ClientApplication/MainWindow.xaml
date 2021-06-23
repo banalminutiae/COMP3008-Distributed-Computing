@@ -1,0 +1,23 @@
+﻿<Window x:Class="ClientApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <TextBox Name="PythonInput" HorizontalAlignment="Left" Height="204" Margin="19,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="481"/>
+        <Button Name="UploadPythonButton" Content="Upload" HorizontalAlignment="Left" Margin="425,250,0,0" VerticalAlignment="Top" Width="75" Click="UploadPythonButtonClick"/>
+        <Label Content="Enter Python 2 Script:" HorizontalAlignment="Left" Margin="19,0,0,0" VerticalAlignment="Top" Width="127"/>
+        <Label Content="Jobs Completed: " HorizontalAlignment="Left" Margin="19,292,0,0" VerticalAlignment="Top" RenderTransformOrigin="10.049,9.578"/>
+        <Label Content="Status: " HorizontalAlignment="Left" Margin="19,247,0,0" VerticalAlignment="Top" RenderTransformOrigin="11.702,8.48"/>
+        <Label Name="JobCompletionStatus" HorizontalAlignment="Left" Margin="82,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.184,0.267" Height="20" Width="82"/>
+        <Label Name="NumJobsCompletedDisplay" HorizontalAlignment="Left" Margin="125,292,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.008,-0.007" Width="97" Height="26"/>
+        <TextBox Name="PeerToPeerFeed" HorizontalAlignment="Left" Height="204" Margin="526,23,0,0" TextWrapping="Wrap" Text="Output:" VerticalAlignment="Top" Width="241"/>
+
+    </Grid>
+</Window>
+
+ 

@@ -1,0 +1,6 @@
+C:\Users\Andre\Documents\DC\Assignment2\1\Tutorial_1\DBLib\bin\Debug\DBLib.dll
+C:\Users\Andre\Documents\DC\Assignment2\1\Tutorial_1\DBLib\bin\Debug\DBLib.pdb
+C:\Users\Andre\Documents\DC\Assignment2\1\Tutorial_1\DBLib\obj\Debug\DBLib.csprojAssemblyReference.cache
+C:\Users\Andre\Documents\DC\Assignment2\1\Tutorial_1\DBLib\obj\Debug\DBLib.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\DC\Assignment2\1\Tutorial_1\DBLib\obj\Debug\DBLib.dll
+C:\Users\Andre\Documents\DC\Assignment2\1\Tutorial_1\DBLib\obj\Debug\DBLib.pdb

@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<link rel="stylesheet" href="~/Content/Site.css" />
+<html>
+<head>
+    <title>Banking Web Application</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--JQuery-->
+</head>
+
+    <body>
+        <!-- Starting page for the bank application. The follow classes send the user to the different web pages for different bank functyinality
+             Tutorial 4 asks for separate web pages that are then combined in tutorial 5 to be a single page application. Though this is the tutorial 4 solution,
+            Tutorial 5 is essentially bundled into it as it does not make much sense to have idential poject solutions across two folders differing only by a few lines
+            of HTML.
+         -->
+
+        <div class="button_row">
+
+            <div class="col-md-4">
+                <h2>Load Users</h2>
+                <p>Go to the page containing the user controller options through the  bank api controller</p>
+                <p> <button id="users_button" onclick="load_users()"><strong>Load Users</strong></button></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Load Accounts</h2>
+                <p>
+                    Go to the page containing the account controller options through the bank api controller.
+                </p>
+                <p><button id="accounts_button" onclick="load_accounts()"><strong>Load Accounts</strong></button></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Load transactions</h2>
+                <p>Go to the page containing the transaction controller options through the bank api controller</p>
+                <p> <button id="transactions_button" onclick="load_transactions()"><strong>Load Transactions</strong></button></p>
+            </div>
+        </div>
+
+        <div id="Content">
+            <!-- JQuery'd HTML is downloaded here-->
+        </div>
+            <script>
+                function load_accounts() {
+                    $.ajax({
+                        url: 'https://localhost:44384/Main/Accounts',
+                        type: 'get',
+                        processData: false,
+                        success: function (d, t, j) {
+                            $('#Content').html(d);
+                            $('#Content').fadeIn(3500);
+                        },
+                        error: function (j, t, e) {
+                            console.log("Could not load accounts page" + e);
+                        }
+                    });
+                }
+
+                function load_users() {
+                    $.ajax({
+                        url: 'https://localhost:44384/Main/Users',
+                        type: 'get',
+                        processData: false,
+                        success: function (d, t, j) {
+                            $('#Content').html(d);
+                            $('#Content').fadeIn(3500);
+                        },
+                        error: function (j, t, e) {
+                            console.log("Could not load users page" + e);
+                        }
+                    });
+                }
+
+                function load_transactions() {
+                    $.ajax({
+                        url: 'https://localhost:44384/Main/Transaction',
+                        type: 'get',
+                        processData: false,
+                        success: function (d, t, j) {
+                            $('#Content').html(d);
+                            $('#Content').fadeIn(3500);
+                        },
+                        error: function (j, t, e) {
+                            console.log("Could not load transactions page" + e);
+                        }
+                    });
+                }
+            </script>
+       
+    </body>
+</html>

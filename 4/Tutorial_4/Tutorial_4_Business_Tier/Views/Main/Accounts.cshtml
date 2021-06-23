@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewBag.Title = "Accounts";
+}
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--JQuery-->
+    </head>
+<form>
+    <label>Deposit Money</label>
+    <br />
+    <input type="text" id="depositAccountID" name="depositAccountID" placeholder="Enter account ID" />
+    <br />
+    <input type="text" id="depositAmount" name="amount" placeholder="Enter amount to deposit" />
+    <br />
+</form>
+<button id="DepositBtn" onclick="Deposit()">Deposit</button>
+
+<br />
+
+<form>
+    <label>Withdraw Money</label>
+    <br />
+    <input type="text" id="withdrawAccountID" name="withdrawAccountID" placeholder="Enter account ID" />
+    <br />
+    <input type="text" id="withdrawAmount" name="amount" placeholder="Enter amount to withdraw" />
+    <br />
+</form>
+
+<button id="WithdrawBtn" onclick="Withdraw()">Withdraw</button>
+
+<form>
+    <label>Get Account Balance</label><br />
+    <input type="text" id="balAccountID" name="accountId" placeholder="Account ID"  />
+    <input type="text" id="bal" name="bal" placeholder="Account Balance" readonly /> 
+</form>
+<button id="balanceBtn" onclick="GetAccountBalance()">Get Account</button>
+
+<script>
+    function Deposit() {
+        $.ajax({
+            url: 'https://localhost:44384/api/Bank/Deposit/' + $("#depositAccountID").val() + "/" + $("#depositAmount").val(),
+            type: 'post',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+                alert("Successful deposit");
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                console.log(errorThrown);
+            }
+        })
+    }
+
+    function Withdraw() {
+        $.ajax({
+            url: 'https://localhost:44384/api/Bank/Withdraw/' + $("#withdrawAccountID").val() + "/" + $("#withdrawAmount").val(),
+            type: 'post',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+                alert("Successful withdrawal");
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                console.log(errorThrown);
+            }
+        })
+    }
+
+    function GetAccountBalance() {
+        $.ajax({
+            url: 'https://localhost:44384/api/Bank/GetBalance/' + $("#balAccountID").val(),
+            type: 'get',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+                if (data == -1) {
+                    alert("Error retrieving bank balance");
+                } else {
+                    $("#bal").val(data);
+                }
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                console.log(errorThrown);
+            }
+        })
+    }
+
+</script>
+

@@ -1,0 +1,9 @@
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\ClientLibrary\bin\Debug\ClientLibrary.dll
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\ClientLibrary\bin\Debug\ClientLibrary.pdb
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\ClientLibrary\bin\Debug\JobLibrary.dll
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\ClientLibrary\bin\Debug\JobLibrary.pdb
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\ClientLibrary\obj\Debug\ClientLibrary.csprojAssemblyReference.cache
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\ClientLibrary\obj\Debug\ClientLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\ClientLibrary\obj\Debug\ClientLibrary.csproj.CopyComplete
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\ClientLibrary\obj\Debug\ClientLibrary.dll
+C:\Users\Andre\Documents\DC\Assignment2\6\Tutorial_6\ClientLibrary\obj\Debug\ClientLibrary.pdb

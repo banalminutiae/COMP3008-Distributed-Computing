@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Users";
+}
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--JQuery-->
+    </head>
+<h2>Users</h2>
+
+<form>
+    <label>Create a User and User Account</label><br />
+    <input type="text" id="accountFirstName" name="accountFirstName" placeholder="First Name" />
+    <input type="text" id="accountLastName" name="accountLastName" placeholder="Last Name" />
+
+    <br/>
+    <br/>
+
+    <input type="text" id="newAccountUserID" name="newAccountUserID" placeholder="New User ID" readonly />
+    <input type="text" id="newAccountID" name="newAccountID" placeholder="New Account ID"readonly />
+    <input type="text" id="newAccountBal" name="newAccountBal" placeholder="Initial Balance"readonly />
+</form>
+
+<button id=”userBtn” onclick="createUser()">Create Account</button>
+
+
+
+<script>
+    function createUser() {
+        $.ajax({
+            url: 'https://localhost:44384/api/Bank/CreateUserAndAccount/' + $('#accountFirstName').val() + '/' + $('#accountLastName').val(),
+            type: 'post',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+                var userObj = data;
+                if (data == null) {
+                    alert("Failed to create user account for those names");
+                } else {
+                    $("#newAccountUserID").val(data.UserID);
+                    $("#newAccountID").val(data.AccountID);
+                    $("#newAccountBal").val(data.Balance);
+                    console.log(userObj.UserID);
+                }
+                console.log(textStatus);
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                console.log(errorThrown);
+            }
+        });
+    }
+    
+   
+    
+   
+</script>
